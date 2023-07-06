@@ -1,10 +1,10 @@
-package com.sparta.openmind.controller;
+package com.sparta.spartablog.controller;
 
-import com.sparta.openmind.dto.BoardNewcontentRequestDto;
-import com.sparta.openmind.dto.BoardRequestDto;
-import com.sparta.openmind.dto.BoardResponseDto;
-import com.sparta.openmind.security.UserDetailsImpl;
-import com.sparta.openmind.service.BoardService;
+import com.sparta.spartablog.dto.BoardNewcontentRequestDto;
+import com.sparta.spartablog.dto.BoardRequestDto;
+import com.sparta.spartablog.dto.BoardResponseDto;
+import com.sparta.spartablog.security.UserDetailsImpl;
+import com.sparta.spartablog.service.BoardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;

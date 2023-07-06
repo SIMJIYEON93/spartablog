@@ -1,4 +1,4 @@
-package com.sparta.openmind.controller;
+package com.sparta.spartablog.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

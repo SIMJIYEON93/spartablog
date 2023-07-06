@@ -1,10 +1,10 @@
-package com.sparta.openmind.config;
+package com.sparta.spartablog.config;
 
 
-import com.sparta.openmind.jwt.JwtUtil;
-import com.sparta.openmind.security.JwtAuthenticationFilter;
-import com.sparta.openmind.security.JwtAuthorizationFilter;
-import com.sparta.openmind.security.UserDetailsServiceImpl;
+import com.sparta.spartablog.jwt.JwtUtil;
+import com.sparta.spartablog.security.JwtAuthenticationFilter;
+import com.sparta.spartablog.security.JwtAuthorizationFilter;
+import com.sparta.spartablog.security.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;

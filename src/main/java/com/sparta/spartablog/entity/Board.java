@@ -1,8 +1,8 @@
-package com.sparta.openmind.entity;
+package com.sparta.spartablog.entity;
 
-import com.sparta.openmind.dto.BoardNewcontentRequestDto;
-import com.sparta.openmind.dto.BoardRequestDto;
-import com.sparta.openmind.dto.Timestamped;
+import com.sparta.spartablog.dto.BoardNewcontentRequestDto;
+import com.sparta.spartablog.dto.BoardRequestDto;
+import com.sparta.spartablog.dto.Timestamped;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,7 +1,7 @@
-package com.sparta.openmind.repository;
+package com.sparta.spartablog.repository;
 
-import com.sparta.openmind.entity.Board;
-import com.sparta.openmind.entity.User;
+import com.sparta.spartablog.entity.Board;
+import com.sparta.spartablog.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

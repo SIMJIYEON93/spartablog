@@ -1,12 +1,12 @@
-package com.sparta.openmind.service;
+package com.sparta.spartablog.service;
 
 
-import com.sparta.openmind.dto.BoardNewcontentRequestDto;
-import com.sparta.openmind.dto.BoardRequestDto;
-import com.sparta.openmind.dto.BoardResponseDto;
-import com.sparta.openmind.entity.Board;
-import com.sparta.openmind.entity.User;
-import com.sparta.openmind.repository.BoardRepository;
+import com.sparta.spartablog.dto.BoardNewcontentRequestDto;
+import com.sparta.spartablog.dto.BoardRequestDto;
+import com.sparta.spartablog.dto.BoardResponseDto;
+import com.sparta.spartablog.entity.Board;
+import com.sparta.spartablog.entity.User;
+import com.sparta.spartablog.repository.BoardRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

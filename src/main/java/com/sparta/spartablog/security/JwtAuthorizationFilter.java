@@ -1,6 +1,6 @@
-package com.sparta.openmind.security;
+package com.sparta.spartablog.security;
 
-import com.sparta.openmind.jwt.JwtUtil;
+import com.sparta.spartablog.jwt.JwtUtil;
 import io.jsonwebtoken.Claims;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

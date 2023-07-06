@@ -1,10 +1,10 @@
-package com.sparta.openmind.controller;
+package com.sparta.spartablog.controller;
 
-import com.sparta.openmind.dto.SignupRequestDto;
-import com.sparta.openmind.dto.UserInfoDto;
-import com.sparta.openmind.entity.UserRoleEnum;
-import com.sparta.openmind.security.UserDetailsImpl;
-import com.sparta.openmind.service.UserService;
+import com.sparta.spartablog.dto.SignupRequestDto;
+import com.sparta.spartablog.dto.UserInfoDto;
+import com.sparta.spartablog.entity.UserRoleEnum;
+import com.sparta.spartablog.security.UserDetailsImpl;
+import com.sparta.spartablog.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

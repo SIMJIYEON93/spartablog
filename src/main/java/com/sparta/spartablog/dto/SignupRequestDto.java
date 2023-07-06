@@ -1,7 +1,9 @@
-package com.sparta.openmind.dto;
+package com.sparta.spartablog.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,8 +11,10 @@ import lombok.Setter;
 @Setter
 public class SignupRequestDto {
     @NotBlank
+    @Pattern(regexp = "^[a-z0-9]{4,10}$",message = "최소 4자이상 10자 이하여야 합니다.")
     private String username;
     @NotBlank
+    @Pattern(regexp = "^[a-zA-Z0-9]{8,16}$",message = "최소 8자이상 16자 이하여야 합니다.")
     private String password;
     @Email
     @NotBlank

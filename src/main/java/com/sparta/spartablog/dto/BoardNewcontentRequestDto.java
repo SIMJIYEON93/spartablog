@@ -1,4 +1,4 @@
-package com.sparta.openmind.dto;
+package com.sparta.spartablog.dto;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,9 +1,9 @@
-package com.sparta.openmind.service;
+package com.sparta.spartablog.service;
 
-import com.sparta.openmind.dto.SignupRequestDto;
-import com.sparta.openmind.entity.User;
-import com.sparta.openmind.entity.UserRoleEnum;
-import com.sparta.openmind.repository.UserRepository;
+import com.sparta.spartablog.dto.SignupRequestDto;
+import com.sparta.spartablog.entity.User;
+import com.sparta.spartablog.entity.UserRoleEnum;
+import com.sparta.spartablog.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package com.sparta.openmind.security;
+package com.sparta.spartablog.security;
 
-import com.sparta.openmind.entity.User;
-import com.sparta.openmind.repository.UserRepository;
+import com.sparta.spartablog.entity.User;
+import com.sparta.spartablog.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,6 +1,5 @@
-package com.sparta.openmind.entity;
+package com.sparta.spartablog.entity;
 
-import com.sparta.openmind.entity.UserRoleEnum;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

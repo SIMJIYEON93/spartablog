@@ -1,7 +1,7 @@
-package com.sparta.openmind.security;
+package com.sparta.spartablog.security;
 
-import com.sparta.openmind.entity.User;
-import com.sparta.openmind.entity.UserRoleEnum;
+import com.sparta.spartablog.entity.User;
+import com.sparta.spartablog.entity.UserRoleEnum;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

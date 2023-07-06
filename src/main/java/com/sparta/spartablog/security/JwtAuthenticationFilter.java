@@ -1,9 +1,9 @@
-package com.sparta.openmind.security;
+package com.sparta.spartablog.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sparta.openmind.dto.LoginRequestDto;
-import com.sparta.openmind.entity.UserRoleEnum;
-import com.sparta.openmind.jwt.JwtUtil;
+import com.sparta.spartablog.dto.LoginRequestDto;
+import com.sparta.spartablog.entity.UserRoleEnum;
+import com.sparta.spartablog.jwt.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

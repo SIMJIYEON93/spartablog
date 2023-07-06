@@ -1,6 +1,6 @@
-package com.sparta.openmind.jwt;
+package com.sparta.spartablog.jwt;
 
-import com.sparta.openmind.entity.UserRoleEnum;
+import com.sparta.spartablog.entity.UserRoleEnum;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import jakarta.annotation.PostConstruct;

@@ -1,6 +1,6 @@
-package com.sparta.openmind.dto;
+package com.sparta.spartablog.dto;
 
-import com.sparta.openmind.entity.Board;
+import com.sparta.spartablog.entity.Board;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
